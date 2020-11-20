@@ -42,6 +42,8 @@ As you see, we use **os** and **sys** modules. We use **os** module for some fun
 
 ----------------------------------------------------------
 
+**Interacting With Shell and Doing Basic Windows Operations**
+
 ![Shell](https://i.hizliresim.com/dVl9vx.png)
 
 This part is little bit complicated so I will explain one by one
@@ -54,6 +56,8 @@ This part is little bit complicated so I will explain one by one
 
 ----------------------------------------------------------
 
+**Sleep function**
+
 ![Time](https://i.hizliresim.com/hSTur0.png)
 
 In this part, actually we aren't getting the process time because I haven't coded that yet, it's easy and I will add that feature after I fix basic problems and add features
@@ -62,11 +66,15 @@ In this part, actually we aren't getting the process time because I haven't code
 
 ----------------------------------------------------------
 
+**Getting ipv6 Address**
+
 ![Ipv6](https://i.hizliresim.com/CoXHpM.png)
 
 We are getting requests from an api page that gives us only the ipv6 address
 
 ----------------------------------------------------------
+
+**Email Libraries***
 
 ![Email](https://i.hizliresim.com/Ew6yJR.png)
 
@@ -76,6 +84,8 @@ These our SMTP libraries used for sending emails after we get the keylogs and th
 
 ----------------------------------------------------------
 
+**Keylogger Libraries**
+
 ![Keyloggers](https://i.hizliresim.com/55YSGj.png)
 
 These are the libraries that helps us to get keylogs
@@ -84,17 +94,23 @@ These are the libraries that helps us to get keylogs
 
 ----------------------------------------------------------
 
+**Threading**
+
 ![Threading](https://i.hizliresim.com/V9tpJP.png)
 
 We use **threading** library to multiprocess our functions and methods. So in that way we can do more than one thing at the same time and make our program work like a real malware
 
 ----------------------------------------------------------
 
+**Backdoor Libraries (Haven't added yet)**
+
 ![Backdoor](https://i.hizliresim.com/1kS1pj.png)
 
 This version of this program doesn't have the keylogger yet, after I code the server side this file will be the client and you'll be able to use it as a backdoor. These libraries are useless for now
 
 ----------------------------------------------------------
+
+**Pyautogui**
 
 ![Screenshot](https://i.hizliresim.com/4Usoze.png)
 
@@ -104,11 +120,15 @@ We use **pyautogui**'s **screenshot** function to attach screenshots to our emai
 ### Checks
 Checks are used for disabling windows features and include other features than the actual parts. Now let's get to the explanation about how they work
 
+**Adding To Startup**
+
 ![Startup](https://i.hizliresim.com/jTxC84.png)
 
 This function is used for adding our program to startup. When the victim opens his pc, he won't recognize that this program will run automaticly so in that way we will be always active
 
 ----------------------------------------------------------
+
+**Disable Features**
 
 ![Disable](https://i.hizliresim.com/Ihnbbe.png)
 
@@ -116,11 +136,15 @@ In this part, we are disabling windows features to oppress the victim and restri
 
 ----------------------------------------------------------
 
+**Taking Screenshots**
+
 ![Screenshot](https://i.hizliresim.com/njpORD.png)
 
 We are taking screenshot of the whole screen every five seconds and saving them to specified path. Remember that we defined **sleep** function as **s**
 
 ----------------------------------------------------------
+
+**Returning ipv6 Address**
 
 ![ipv6](https://i.hizliresim.com/Ah7so1.png)
 
