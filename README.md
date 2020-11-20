@@ -186,3 +186,22 @@ This is the function and the if statement included in that method. **savefile** 
 ![Keylog5](https://i.hizliresim.com/ccvPm8.png)
 
 In this part, we can finally run our keylogger with this method as thread methods (functions).
+
+
+### Sending Email
+
+**Email Class** 
+
+![Mail1](https://i.hizliresim.com/cbHEpX.png)
+
+This is our email class, we are planning to send emails after we get the keylogs and the screenshots
+
+With this constructor we define email's header and body.
+
+- **Don't forget to put your informations in empty strings**
+1. **If you encounter with some problems, there are possible solutions I have for it**
+ - If you are using gmail, make sure that you have opened the **Less secure app access**, otherwise you can't send emails with it
+ - If you are using an another mail system, you need to change the **port** and the **address** on **line 251**
+ 
+ 
+ 
