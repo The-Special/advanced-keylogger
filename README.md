@@ -21,13 +21,13 @@ From line 224 to 232
 
 After you have done them, you can check the usage and explanation now
 
-## Usage
+# Usage
 
 
 
-## Explanation
+# Explanation
 
-### Libraries
+## Libraries
 Some of imports are commented because they seemed useless and at the same time, seemed like could be useful so they have just got commented instead of taken out. Keep in mind
 
 Some libraries are custom libraries so you might need to download them before using the program, I will create a requirements.txt to help you out
@@ -74,7 +74,7 @@ We are getting requests from an api page that gives us only the ipv6 address
 
 ----------------------------------------------------------
 
-**Email Libraries***
+**Email Libraries**
 
 ![Email](https://i.hizliresim.com/Ew6yJR.png)
 
@@ -153,4 +153,13 @@ With this function, we are returning the victim's ipv6 address
 
 With these been said, let's get to the actual malware
 
-### Exploits
+## Exploits
+
+### Keylogger
+
+![Keylog1](https://i.hizliresim.com/gmrcHc.png)
+
+This is our keylogger class which is saves the keyboard inputs into a list and then after some ammount of keys, saves into a file and so on. Let's explain how these methods work.
+
+![Keylog2](https://i.hizliresim.com/5llCAX.png)
+
