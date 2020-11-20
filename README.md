@@ -40,6 +40,7 @@ As you see, we use **os** and **sys** modules. We use **os** module for some fun
 *sys* module is never used in this program, we have just imported in advance updating the program. So keep in mind, you can take it out as you like
 
 
+
 ![Shell](https://i.hizliresim.com/dVl9vx.png)
 
 This part is little bit complicated so I will explain one by one
@@ -51,6 +52,7 @@ This part is little bit complicated so I will explain one by one
 **getpass** library is used for getting current user's name, it helps us to adding our program to startup without facing any problem
 
 
+
 ![Time](https://i.hizliresim.com/hSTur0.png)
 
 In this part, actually we aren't getting the process time because I haven't coded that yet, it's easy and I will add that feature after I fix basic problems and add features
@@ -58,9 +60,11 @@ In this part, actually we aren't getting the process time because I haven't code
 **sleep** method is used for stopping our thread functions for a certain time, so in that way our **infinite while loops** don't crash our program
 
 
+
 ![Ipv6](https://i.hizliresim.com/CoXHpM.png)
 
 We are getting requests from an api page that gives us only the ipv6 address
+
 
 
 ![Email](https://i.hizliresim.com/Ew6yJR.png)
@@ -70,11 +74,13 @@ These our SMTP libraries used for sending emails after we get the keylogs and th
 [SMTP Documentary](https://docs.python.org/3/library/smtplib.html)
 
 
-[!Keyloggers](https://i.hizliresim.com/55YSGj.png)
+
+![Keyloggers](https://i.hizliresim.com/55YSGj.png)
 
 These are the libraries that helps us to get keylogs
 
 **logging** library is used for formatting how we want to get the keys
+
 
 
 ![Threading](https://i.hizliresim.com/V9tpJP.png)
@@ -82,14 +88,17 @@ These are the libraries that helps us to get keylogs
 We use **threading** library to multiprocess our functions and methods. So in that way we can do more than one thing at the same time and make our program work like a real malware
 
 
+
 ![Backdoor](https://i.hizliresim.com/1kS1pj.png)
 
 This version of this program doesn't have the keylogger yet, after I code the server side this file will be the client and you'll be able to use it as a backdoor. These libraries are useless for now
 
 
+
 ![Screenshot](https://i.hizliresim.com/4Usoze.png)
 
 We use **pyautogui**'s **screenshot** function to attach screenshots to our emails
+
 
 
 
