@@ -150,20 +150,27 @@ We are taking screenshot of the whole screen every five seconds and saving them 
 
 With this function, we are returning the victim's ipv6 address
 
-
-With these been said, let's get to the actual malware
+----------------------------------------------------------
 
 ## Exploits
 
+Keep in mind, again and again. These are the classes and the functions where we only **define**. We don't run them in here yet, we run them after we find the specified operation system.
+
 ### Keylogger
+
+**Keylogger Class*
 
 ![Keylog1](https://i.hizliresim.com/gmrcHc.png)
 
 This is our keylogger class which is saves the keyboard inputs into a list and then after some ammount of keys, saves into a file and so on. Let's explain how these methods work.
 
+**Saving Keys**
+
 ![Keylog2](https://i.hizliresim.com/5llCAX.png)
 
 Our method that where we listen to inputs and save them to a list (or array you can say). In this method, we have another functions included inside
+
+**Saving to a file**
 
 ![Keylog3](https://i.hizliresim.com/0Nijz1.png)
 
@@ -173,4 +180,8 @@ This is the function and the if statement included in that method. **savefile** 
 
 **logger** method is where we call the **on_press** method. **on_press** method is determines how the listener should work, so **logger** method depends on how **on_press** method has designed.
 
+**Running Thread Methods**
 
+![Keylog5](https://i.hizliresim.com/ccvPm8.png)
+
+In this part, we can finally run our keylogger with this method as thread methods (functions).
