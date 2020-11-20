@@ -198,10 +198,10 @@ This is our email class, we are planning to send emails after we get the keylogs
 
 With this constructor we define email's header and body.
 
-- **Don't forget to put your informations in empty strings**
-1. **If you encounter with some problems, there are possible solutions I have for it**
- - If you are using gmail, make sure that you have opened the **Less secure app access**, otherwise you can't send emails with it
- - If you are using an another mail system, you need to change the **port** and the **address** on **line 251**
+1. **Don't forget to put your informations in empty strings**
+2. **If you encounter with some problems, there are possible solutions I have for it**
+  - If you are using gmail, make sure that you have opened the **Less secure app access**, otherwise you can't send emails with it
+  - If you are using an another mail system, you need to change the **address** on **line 251**. You don't need to change the port
  
  
  
