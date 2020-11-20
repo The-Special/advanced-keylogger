@@ -31,7 +31,7 @@ The best way to run this script as administrator is turning into an exe file. Se
 
 [Download Pyinstaller](https://pypi.org/project/pyinstaller/)
 
-- [How to Use Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/usage.html)
+- [How To Use Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/usage.html)
 - [How To Use Pyinstaller](https://realpython.com/pyinstaller-python/)
 
 ## WARNING
