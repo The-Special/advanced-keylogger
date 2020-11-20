@@ -202,6 +202,25 @@ With this constructor we define email's header and body.
 2. **If you encounter with some problems, there are possible solutions I have for it**
      - If you are using gmail, make sure that you have opened the **Less secure app access**, otherwise you can't send emails with it
      - If you are using an another mail system, you need to change the **address** on **line 251**. You don't need to change the port
- 
- 
- 
+     
+**Adding Attachments to Emails**
+
+![Mail2](https://i.hizliresim.com/D4ObE2.png)
+
+In here, we add attachments to our email based on the files in the directory we are iterating in.
+
+I have just specified two types of files because this malware doesn't save any other type of files.
+
+Keylogs are saved as `.txt`, images are saved as `.png`
+
+**Sending the Email and Starting the Threads**
+
+![Mail3](https://i.hizliresim.com/meWptc.png)
+
+Our **send** method is used for sending the email when everything is done (Specifying header and the body, attaching the certain files).
+
+And our **run** method is used for running these methods as **thread** methods to multiprocess our program like in the **keylogger** class
+
+### Running The Malware
+
+Now we have come to running part.
