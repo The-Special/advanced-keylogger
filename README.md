@@ -221,6 +221,43 @@ Our **send** method is used for sending the email when everything is done (Speci
 
 And our **run** method is used for running these methods as **thread** methods to multiprocess our program like in the **keylogger** class
 
-### Running The Malware
+### Running The Malware (WINDOWS)
 
-Now we have come to running part.
+**Determining the Operation System's Name**
+
+![Run1](https://i.hizliresim.com/rwrjyB.png)
+
+First of all, we need to learn what operation system does our victim use. We find out with the **getsystem** function and then deciding what to do based on the operation system.
+
+Like I said, this is the first version of this program, so it just works on windows for now.
+
+**Creating Our Directory**
+
+![Run2](https://i.hizliresim.com/44k9vw.png)
+
+We are getting the **desktop** and **system32**'s path. We are creating a file in **system32** to store our keylogs and screenshots. If the file is already exists (which is nearly impossible) we just skip it and use the exist file
+
+in **line 285**, **ctypes** helps us to hide our directory.
+
+**Applying the Checks**
+
+![Run3](https://i.hizliresim.com/nfGnhn.png)
+
+In here, we run the methods that where we disable **Group Policy**, **Regedit**, **Task Manager** and **CMD**.
+
+**AddToRegistry** function is for adding our program to startup, so we run it here
+
+**Running the Threads**
+
+![Run4](https://i.hizliresim.com/n6KzOC.png)
+
+Finally we have finished our program.
+
+1. First of all, we are creating objects for our classes.
+2. After we create our objects, we start to run thread methods
+3. While the thread methods are running, we create an function to send our email after certain steps are done
+4. In our **sendmail** function, we check if the keylog files ammount is more than 5 every 5 seconds
+5. If our keylog files ammount more than 5, we call the **run** method of email to send our email. 
+6. While we are sending our email, files in the directory that we created are getting attached to that email
+7. After we send our email, we delete the files in that directory to not attach the same files and not to spend memory, otherwise victim's pc could get crashed
+8. That's all, after we delete the files we repeat the same thing
