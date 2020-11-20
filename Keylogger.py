@@ -3,13 +3,7 @@
 # GETTING RELATIVE PATHS
 import sys
 import os
-
-# from pathlib import Path
 from os.path import expanduser
-from platform import system
-import subprocess
-import ctypes
-from urllib.request import parse_http_list
 
 # --------------------------------------------------------
 
@@ -17,6 +11,8 @@ from urllib.request import parse_http_list
 
 import winreg as reg
 from win32com.shell import shell as shell
+from platform import system
+import ctypes
 import getpass
 
 
@@ -28,11 +24,7 @@ from time import sleep as s
 
 # ---------------------------------------------------------
 
-# GETTING USER'S IP AND MORE
-# import socket
-# from socket import getaddrinfo
-# import requests
-# from bs4 import BeautifulSoup
+# GETTING USER'S IPV6 ADDRESS
 import urllib.request
 
 # ----------------------------------------------------------
@@ -72,12 +64,6 @@ import subprocess
 
 # TAKE SCREENSHOTS
 import pyautogui
-from PIL import Image
-
-# ----------------------------------------------------------
-
-# OTHER LIBRARIES
-
 
 """-------------------------------------------------------       CHECKS      -----------------------------------------------------------------"""
 
