@@ -116,6 +116,7 @@ This version of this program doesn't have the keylogger yet, after I code the se
 
 We use **pyautogui**'s **screenshot** function to attach screenshots to our emails
 
+----------------------------------------------------------
 
 ### Checks
 Checks are used for disabling windows features and include other features than the actual parts. Now let's get to the explanation about how they work
@@ -158,7 +159,7 @@ Keep in mind, again and again. These are the classes and the functions where we 
 
 ### Keylogger
 
-**Keylogger Class*
+**Keylogger Class**
 
 ![Keylog1](https://i.hizliresim.com/gmrcHc.png)
 
