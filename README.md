@@ -23,6 +23,20 @@ After you have done them, you can check the usage and explanation now
 
 # Usage
 
+## How to Run?
+
+First of all if you want to run this malware, you need to open the script as administrator mode, otherwise some functions won't work and you'll get an error.
+
+The best way to run this script as administrator is turning into an exe file. See the instructions down below:
+
+[Download Pyinstaller](https://pypi.org/project/pyinstaller/)
+
+- [How to Use Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/usage.html)
+- [How To Use Pyinstaller](https://realpython.com/pyinstaller-python/)
+
+## WARNING
+
+This program is really dangerous. There are functions that disables windows' features such as **Task Manager** and **CMD**, I do not recommend to run this file before reading the the explanation. 
 
 
 # Explanation
