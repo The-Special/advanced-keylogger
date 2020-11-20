@@ -32,12 +32,14 @@ Some of imports are commented because they seemed useless and at the same time, 
 
 Some libraries are custom libraries so you might need to download them before using the program, I will create a requirements.txt to help you out
 
+**Relative Paths**
 
 ![Path](https://i.hizliresim.com/DSRSX4.png)
 
 As you see, we use **os** and **sys** modules. We use **os** module for some functions and methods. For example *expanduser, listdir* and more. These functions and methods are helping us to get relative paths and control them as how we want.
 
 *sys* module is never used in this program, we have just imported in advance updating the program. So keep in mind, you can take it out as you like
+
 ----------------------------------------------------------
 
 ![Shell](https://i.hizliresim.com/dVl9vx.png)
