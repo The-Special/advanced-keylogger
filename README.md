@@ -163,3 +163,14 @@ This is our keylogger class which is saves the keyboard inputs into a list and t
 
 ![Keylog2](https://i.hizliresim.com/5llCAX.png)
 
+Our method that where we listen to inputs and save them to a list (or array you can say). In this method, we have another functions included inside
+
+![Keylog3](https://i.hizliresim.com/0Nijz1.png)
+
+This is the function and the if statement included in that method. **savefile** function simply does save the keys in a file and that **if** statement decides when to save the keys in a file. You can change the number of keys as you like, I was using 20 keys for testing it
+
+![Keylog4](https://i.hizliresim.com/nl6W7h.png)
+
+**logger** method is where we call the **on_press** method. **on_press** method is determines how the listener should work, so **logger** method depends on how **on_press** method has designed.
+
+
